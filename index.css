@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.que1{
+    background-color: beige;
+    flex-basis: 40%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    margin-left: 150px;
+    color:black;
+    font-weight: 100;
+    font-style: bold;
+}
+h1{
+    margin-top: 10px;
+}
+span{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.input1{
+    height: 40px;
+    width:180px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+button{
+    height: 30px;
+    width: 80px;
+    font-style: bold;
+}
+.que2{
+    background-color:  beige;
+    flex-basis: 30%;
+    margin-bottom: 10px;
+
+}
+h2{
+    padding-top: 30px;
+    font-size: 32px;
+}
+.input2{
+    height: 30px;
+    width:60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+@media all and (max-width:350px)
+{
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        margin-left: 10px;
+    }
+    span{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    button{
+        height: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .input1{
+        height: 30px;
+        width:150px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+    margin-left: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    .input2{
+        height: 15px;
+        width:30px;
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 10px;
+        padding-left: 5px;
+      
+    }
+    
+}
+ 
+@media all and (max-width:450px)
+{
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        margin-left: 50px;
+    }
+    span{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    h1{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    button{
+        height: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+    .input1{
+        height: 30px;
+        width:150px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    p{
+    margin-left: 35px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    .input2{
+        height: 15px;
+        width:30px;
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 10px;
+        padding-left: 5px;
+      
+    }
+    
+}
